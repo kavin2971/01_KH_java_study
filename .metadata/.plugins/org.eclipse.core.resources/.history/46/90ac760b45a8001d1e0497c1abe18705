@@ -1,0 +1,19 @@
+package operator03;
+
+public class Operator04 {
+
+	public static void main(String[] args) {
+		// 논리연산자
+		// && : 조건이 모두 다 참일때만 참
+		// || : 조건중 1개라고 참이 있으면 참
+		
+		int num1 = 10;
+		int num2 = 10;
+		
+		System.out.println(num1>20 && num2>5);
+		
+			
+
+	}
+
+}

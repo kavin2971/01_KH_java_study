@@ -1,0 +1,18 @@
+package operator03;
+
+public class Operator06 {
+
+	public static void main(String[] args) {
+		// 삼항 연산자
+		// 조건식 ? 참이면 식1 : 거짓이면 식2
+		
+		int a = 3;
+		int b = 5;
+		int result = a > b ? a :b;
+		
+		System.out.println(result);
+				
+
+	}
+
+}

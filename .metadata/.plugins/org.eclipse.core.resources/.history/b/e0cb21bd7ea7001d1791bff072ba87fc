@@ -1,0 +1,12 @@
+package variable02;
+
+public class Variable03 {
+
+	public static void main(String[] args) {
+
+		byte by1 = 10;
+		System.out.println(by1);
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package day04;
+
+public class For03 {
+
+	public static void main(String[] args) {
+		
+		int oddSum = 0;
+		for (int i = 1; i<=100; i+=2)
+		oddSum +=i;
+		System.out.println("1~100까지 홀수의 합 : \n"+oddSum);
+		
+		for (int i = 1; i<=100; i+=1)
+		oddSum +=i;
+		System.out.println("1~100까지 짝수의 합 : \n"+oddSum);
+
+			
+	}
+
+}

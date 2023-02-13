@@ -1,0 +1,34 @@
+package casting02;
+
+public class Casting01 {
+
+	public static void main(String[] args) {
+		//
+		int num1 = 1234567890;
+		int num2 = 1234567890;
+		
+		//자동형 변환 작은타입 -> 큰타입에 넣을때
+		//자동으로 형이 변환되어 들어간다
+		float num3 = num2;
+	//	byte byte1 = num1;
+	//	1byte        4byte 
+		
+		// 값이 넘어서면 이상한 값이 나온다	
+		long num4 = num1;
+		int result = num1 * num2;
+		
+		byte b1 = 40;
+		short sh1 = b1;
+		
+		char ch = 'H';
+		int num5 = ch;
+		
+		System.out.println(num5);
+		
+
+		
+		System.out.println(result);
+		
+	}
+
+}

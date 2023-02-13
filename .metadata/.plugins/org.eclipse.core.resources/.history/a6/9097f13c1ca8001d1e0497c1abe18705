@@ -1,0 +1,14 @@
+package day02;
+
+public class Constant02 {
+
+	public static void main(String[] args) {
+		// 상수 : 맨처음 값을 넣으면 변경할수 없는 값
+		final int MAX = 30;
+		//final 을 입력해주면 된다
+		final double PI = 3.141519;
+		
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package casting02;
+
+public class Opercasting03 {
+
+	public static void main(String[] args) {
+		// 
+		byte b1 = 10;
+		byte b2 = 30;
+		
+		int int1 = b1 + b2;
+		byte b3 = (byte)(b1 +b2);
+
+	}
+
+}

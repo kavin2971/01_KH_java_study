@@ -1,0 +1,22 @@
+package variable02;
+
+public class Variable02 {
+
+	public static void main(String[] args) {
+		
+		int x = 10;
+		double pi = 3.141519;
+		char ch = 'a'; //반드시 1글자만, 외따옴표
+		boolean bool = false;
+		String str = "abcdef"; // 안넣어도되고 1글자이상 이어도됨
+		
+		System.out.println(x);
+		System.out.println(pi);
+		System.out.println(bool);
+		System.out.println(str);
+		
+		bool = 50 > 40;
+		
+	}
+
+}

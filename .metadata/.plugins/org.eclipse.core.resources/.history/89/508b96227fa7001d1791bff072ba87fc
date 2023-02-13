@@ -1,0 +1,17 @@
+package variable02;
+
+public class Variable03 {
+
+	public static void main(String[] args) {
+
+		byte by1 = 10;
+		System.out.println(by1);
+		
+		by1= 127;
+		
+		Short sh = 30000;
+		System.out.println(sh);
+		
+	}
+
+}

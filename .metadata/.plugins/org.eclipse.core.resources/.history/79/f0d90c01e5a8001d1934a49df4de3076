@@ -1,0 +1,32 @@
+package day03;
+
+public class If01 {
+
+	public static void main(String[] args) {
+		//
+		
+		int score = 96;
+		
+		if(score >=80) {
+			System.out.println("합격입니다");
+		}
+		System.out.println("-----------");
+		if(score<80) 
+			System.out.println("재평가 대상입니다");
+		System.out.println("-----------");
+		
+		if(score>=90) 
+			//System.out.println("합격입니다");
+			System.out.println("오~ 열심히했네요?!");
+			if(score>95) 
+		
+				//System.out.println("합격입니다");
+				System.out.println("대박!!");
+		
+
+	
+
+  }
+	
+	}
+

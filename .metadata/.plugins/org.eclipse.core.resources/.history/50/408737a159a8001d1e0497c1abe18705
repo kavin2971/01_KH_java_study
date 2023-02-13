@@ -1,0 +1,45 @@
+package operator03;
+
+public class Operator07 {
+
+	public static void main(String[] args) {
+		int x, y, z;
+		int absX, absY, absZ;
+		// int signX, signY, signZ;
+//정답		
+		x=40;
+		y=-9;
+		z=0;
+		
+//		absX = x >= 0 ? x:-x;
+//		System.out.println(absX);
+//		absY = y >= 0 ? y:-y;
+//		System.out.println(absY);
+//		absZ = z >= 0 ? z:-z;
+//		System.out.println(absZ);
+		
+//		String signX = x>0 ? "+" + x : ""+x;
+//		System.out.println(signX);
+//		String signY = y>0 ? "+" + y : ""+y;
+//		System.out.println(signY);
+//		String signZ = z>0 ? "+"+z : (z==0 ? ""+z : ""+z); 
+//		System.out.println(signZ);
+//		
+
+		
+		
+// char 로 외따옴표를 사용해도 된다. 단, 3개의 식이 동일해야한다.
+		String strX = (x > 0) ? "+"+x : " "+x;
+		String strY = (y > 0) ? "+"+y : " "+y;
+		String strZ = (z > 0) ? "+"+z : " "+z;
+
+		System.out.println(strX);
+		System.out.println(strY);
+		System.out.println(strZ);
+		
+		
+		
+
+	}
+
+}

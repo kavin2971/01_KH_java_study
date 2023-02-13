@@ -1,0 +1,18 @@
+package casting02;
+
+public class Casting02 {
+
+	public static void main(String[] args) {
+		// 
+		int num1 = 120;
+		byte b1 = (byte)num1;
+		System.out.println(b1);
+		
+		num1 = 1234534;
+		b1 = (byte)num1;
+		System.out.println(b1);
+		
+
+	}
+
+}

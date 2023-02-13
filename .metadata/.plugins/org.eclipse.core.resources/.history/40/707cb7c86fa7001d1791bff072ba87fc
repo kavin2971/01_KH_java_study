@@ -1,0 +1,11 @@
+package print01;
+
+public class Print02 {
+
+	public static void main(String[] args) {
+		System.out.println(5 + 3 + " : 5+3의 연산결과 출력");
+		
+
+	}
+
+}

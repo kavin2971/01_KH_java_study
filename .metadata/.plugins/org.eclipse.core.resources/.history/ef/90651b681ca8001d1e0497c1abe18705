@@ -1,0 +1,17 @@
+package casting02;
+
+public class Casting01 {
+
+	public static void main(String[] args) {
+		//
+		int num1 = 1234567890;
+		int num2 = 1234567890;
+		
+		float num3 = num2;
+	//	byte byte1 = num1;
+	//	1byte        4byte 
+		long num4 = num1;
+		int result = num1 * num2;
+	}
+
+}

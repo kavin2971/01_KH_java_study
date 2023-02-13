@@ -1,0 +1,27 @@
+package variable02;
+
+public class Variable01 {
+
+	public static void main(String[] args) {
+		//정수
+		int number;
+		number = 25;
+		
+		int number2 = 30;
+		
+		System.out.println(number+number2);
+		
+		int result = number + number2;
+		System.out.println(result);
+		System.out.println(result*3);
+		System.out.println(result/5);
+		System.out.println(result*number);
+		
+		//int를 넣지않으면
+		number = 100;
+		
+		
+
+	}
+
+}

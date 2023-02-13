@@ -1,0 +1,10 @@
+package print01;
+
+public class Print01 {
+
+	public static void main(String[] args) {
+		System.out.println("문자열 출력시 쌍따옴표");
+		System.out.println(789812);
+	}
+
+}

@@ -1,0 +1,12 @@
+package variable02;
+
+public class Variable04 {
+
+	public static void main(String[] args) {
+		
+		System.out.printf("%d", 5);
+		
+
+	}
+
+}

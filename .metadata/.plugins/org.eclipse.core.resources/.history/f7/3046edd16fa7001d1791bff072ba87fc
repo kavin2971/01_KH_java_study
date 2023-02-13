@@ -1,0 +1,13 @@
+package print01;
+
+public class Print02 {
+
+	public static void main(String[] args) {
+		// 문자열에서 +는 연결기호, 숫자열에서는 연산자
+		System.out.println(5 + 3 + " : 5+3의 연산결과 출력");
+		System.out.println("5+3의 연산결과 출력" + 5 + 3);
+		
+
+	}
+
+}
