@@ -1,3 +1,4 @@
+package random02;
 
 public class Random08 {
 
@@ -19,6 +20,15 @@ public class Random08 {
 		//1~10
 		random2 = (int)(Math.random()*10)+1;
 		System.out.println(random2);
+		
+		//1~3
+		random2 = (int)(Math.random()*3)+1;
+		System.out.println(random2);
+		
+		//1~6
+		random2 = (int)(Math.random()*6)+1;
+		System.out.println(random2);
+		
 	}
 
 }
