@@ -11,7 +11,7 @@ public class While01 {
 		
 		
 		int i =1;
-		while (i <=10) {
+		while (i <=10) { // 조건식
 			System.out.println(i);
 			i++;
 			
@@ -20,6 +20,8 @@ public class While01 {
 		for(int j=1; j<=100; j++)
 			sum +=j;
 		System.out.println(sum);
+		
+		//while 문은 제한되지 않는 횟수를 진행
 		
 //		sum = 0;
 //		int j=1;

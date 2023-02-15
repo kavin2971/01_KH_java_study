@@ -8,6 +8,8 @@ public class While02 {
 		        
 		
 		Scanner scan = new Scanner(System.in);
+		
+		//for 문의 for(;;) 와 같다
 		while(true) {
 			System.out.println("계속하려면 (c), 정지하려면 (q)를 넣으세요 : ");
 			String user = scan.next();

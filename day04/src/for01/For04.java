@@ -11,6 +11,7 @@ public class For04 {
 		System.out.println("구구단 1~9단 사이의 숫자를 입력하세요");
 		int num = sc.nextInt();
 		System.out.println(num+"단");
+	//	               반복횟수  증가회수      
 		for (int i=1; i<=9; i++) {
 			System.out.println(num+"*"+i+"="+num*i);
 		}

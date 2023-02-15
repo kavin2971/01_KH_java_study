@@ -16,3 +16,4 @@ public class ForMulti05 {
 	}
 
 }
+ // 갯수가 정해진 경우 for문 몇번을 도시오. 몇씩 증가시키시오.
