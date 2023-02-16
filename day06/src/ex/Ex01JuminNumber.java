@@ -27,7 +27,7 @@ public class Ex01JuminNumber {
 		    	jumin[i] = (jumin[i].substring(0,8)+"******");
 //                                               ↑ 8은 포함되지않음
 //				break;
-		    	continue;
+//		    	continue;
 			
 			}else { 
 				System.out.println("잘못된 형식입니다. 다시 입력하세요.");
