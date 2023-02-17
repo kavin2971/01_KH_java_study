@@ -1,25 +1,21 @@
 package array04;
 
-import java.lang.reflect.Array;
-
 public class Array03 {
 
 	public static void main(String[] args) {
+		int[] arr1 = {39,34,29,67,19,95,38,75,4,68};
 		
-		int [] array = {34,25,23,35,44,28,13,11,8,2,66,88};
+		int max = arr1[0]; 
+		int min = arr1[0];
 		
-		System.out.println("배열갯수 : "+Array.getLength(array));
-		int max = array[0];
-		int min = array[0];
-		
-		for (int i=1; i<array.length; i++) {
-		 if(max<array[i]) { max=array[i];}
-			
-		 else if(min>array[i]) {min=array[i];}
+		for(int i=1; i<arr1.length; i++) {
+			if(max < arr1[i])
+				max = arr1[i];
+			    
+			if(min > arr1[i])
+				min = arr1[i];		
 		}
-		
-		System.out.println("높은숫자 : "+max);
-		System.out.println("낮은숫자 : "+min);
+		System.out.println("최대값 : " + max);
+		System.out.println("최소값 : " + min);
 	}
-
 }

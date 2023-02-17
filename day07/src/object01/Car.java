@@ -1,10 +1,9 @@
 package object01;
 
 public class Car {
-
-	String company = "bmw";
-	String model = "520d";
-	String color = "white";
-	String gear = "auto";
-	String maxspeed = "260";
+	String company = "삼성";
+	String model = "SM7";
+	String color = "black";
+	String gear = "자동";
+	int mexSpeed = 300;			
 }

@@ -1,28 +1,47 @@
 package student04;
- 
+
 public class Student {
- String studentName;
- String studentNumber;
-// int studentNumber;
- int yearNumber;
- String depName;
- String studyName;
- String changeName;
- 
-
- int yearNumber(int yearNumber1) {
-	 yearNumber = yearNumber1;
-	 return yearNumber1;
- }	 
- int yearNumberUp(int yearNumber1) {
-	 yearNumber += yearNumber1;
-	 return yearNumber;
- }		 
- int yearNumberDown(int yearNumber1) {
-	 yearNumber -= yearNumber1;
-	 return yearNumber;
-	 
-	 
- }
-
+	String name;
+	int stuNum;
+	int grade = 1; 
+	String major;
+	String CourseName;
+	
+	void CourseName(String CourseName1) {
+		CourseName = CourseName1;
+	}
+	int gradeUp() {
+		++grade;
+		return grade;
+	}
+	String name(String name1) {
+		name = name1;
+		return name;
+	}
+	
+	/*
+	String CourseName(String CourseName1) {
+		CourseName = CourseName1;
+		return CourseName;
+	}
+	int gradeUp() {
+		++grade;
+		return grade;
+	}
+	String name(String name1) {
+		name = name1;
+		return name;
+	}
+	*/
+	/*
+	void CourseName(String CourseName1) {
+		CourseName = CourseName1;
+	}
+	void gradeUp() {
+		++grade;
+	}
+	void name(String name1) {
+		name = name1;
+	}
+	*/
 }

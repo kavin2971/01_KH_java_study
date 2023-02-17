@@ -5,22 +5,16 @@ import java.util.Arrays;
 public class Array04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int[] array = {23,53,36,77,8,85,43,56,34,87};
-		System.out.println(Arrays.toString(array));
+		int[] arr1 = {39,34,29,67,19,95,38,75,4,68};
+		System.out.println(Arrays.toString(arr1));
+		
 		char[] chArr = {'a','b','c','d','e'};
 		boolean bArr[] = {true, false, false, true, false};
-		String strArr[] = {"이순신", "아무개", "홍길동"};
-		double dArr[] = {10.12, 12.3, 24.11, 53.123};
+		String strArr[] = {"이순신","아무개","홍길동"};
+		double dArr[] = {10.12, 12.5, 23.45, 54.674};
 		
 		System.out.println(Arrays.toString(bArr));
-		System.out.println(Arrays.toString(chArr));
 		System.out.println(chArr);
-		System.out.println(Arrays.toString(strArr));
-		System.out.println(Arrays.toString(dArr));
-		
-		
+		System.out.println(Arrays.toString(chArr));
 	}
-
 }

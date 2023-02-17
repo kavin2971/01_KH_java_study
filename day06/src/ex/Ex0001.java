@@ -4,8 +4,8 @@ public class Ex0001 {
 
 	public static void main(String[] args) {
 		
-		int a = 6;
-		int b = 5;
+		int a = 100;
+		int b = 50;
 		
 		
 		
