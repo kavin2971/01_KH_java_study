@@ -36,6 +36,11 @@ public class Tv3 {
 		volume -= volume1;
 		return volume;
 	}
+	int volumeStop(int volume1) {
+		volume1 = 0;
+		volume = volume1;
+		return volume;
+	}
 }
 
 

@@ -52,5 +52,7 @@ public class TvTest {
 		System.out.println("현재 볼륨은 " + tv3.volume(15) + "입니다");
 		System.out.println("현재 볼륨은 " + tv3.volumeUp(10) + "입니다");
 		System.out.println("현재 볼륨은 " + tv3.volumeDown(5) + "입니다");
+		System.out.println("현재 불륨은 " + tv3.volumeStop(0)+"이며 음소거상태.");
+		
 	}
 }

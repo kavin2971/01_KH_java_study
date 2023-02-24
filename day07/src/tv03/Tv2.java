@@ -32,6 +32,10 @@ public class Tv2 {
 		--volume;
 		return volume;
 	}
+	int volumeStop() {
+		volume = 0;
+		return volume;
+	}
 }
 
 

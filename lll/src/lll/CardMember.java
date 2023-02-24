@@ -8,10 +8,11 @@ String name;
 int cardNumber;
 int tel;	 
 int yearMonth;
-
-void cardNumber() {
+int card;
+ 
+int cardNumber() {
 	
-	cardNumber = (int)(Math.random()*12+1);
+	return (int)(Math.random()*10);
 }
 
 }
