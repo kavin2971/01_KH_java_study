@@ -1,4 +1,4 @@
-package phone;
+package phone05;
 
 public class SmartPhone extends CellPhone {
 	boolean internet;
@@ -21,7 +21,7 @@ public class SmartPhone extends CellPhone {
 		else 
 			System.out.println("인터넷뱅킹을 종료합니다");
 	}
-	void kakaotalk(){
+	public void kakaotalk(){
 		kakaotalk = !kakaotalk;
 		if(kakaotalk) {
 			System.out.println("카카오톡을 시작합니다");

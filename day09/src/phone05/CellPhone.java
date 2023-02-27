@@ -1,4 +1,4 @@
-package phone;
+package phone05;
 
 public class CellPhone extends Phone {
 	String sendMessage;
@@ -18,7 +18,7 @@ public class CellPhone extends Phone {
 	void getMessage (){
 		System.out.println("메세지가 왔습니다");
 	}
-	void game () {
+	public void game () {
 		game = !game;
 		if(game)
 		System.out.println("게임을 시작합니다");
