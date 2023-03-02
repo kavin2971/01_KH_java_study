@@ -1,6 +1,6 @@
-package array04;
+package kim;
 
-public class Array05 {
+public class P_Method {
 
 	public static void main(String[] args) {
 		int a = 10;
