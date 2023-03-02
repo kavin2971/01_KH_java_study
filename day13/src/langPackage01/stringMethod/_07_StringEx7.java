@@ -1,4 +1,4 @@
-package langPackage03.stringMethod;
+package langPackage01.stringMethod;
 
 public class _07_StringEx7 {
 

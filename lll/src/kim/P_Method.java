@@ -3,6 +3,11 @@ package kim;
 public class P_Method {
 
 	public static void main(String[] args) {
+		
+		void mix ();
+			
+		
+		
 		int a = 10;
 		int b = 35;
 		int tmp = 0;

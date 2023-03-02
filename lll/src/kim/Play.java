@@ -1,18 +1,20 @@
 package kim;
 
-public class Play {
+public class Play extends P_Method{
 
 	public static void main(String[] args) {
 		// 자리바꿈
+		
+		
 		int a = 10;
 		int b = 45;
-		int c = 0;
+		int tmp = 0;
 		int 추출갯수 =7;
 		
 		
-		c = a;
+		tmp = a;
 		a = b;
-		b = c;
+		b = tmp;
 		
 		System.out.println("1~ 몇까지 숫자를 섞을까요?  1~" + a + "까지의 숫자");
 		System.out.println("섞은 뒤에 몇개의 숫자를 뽑을까요? " + b + "개의 숫자추출");
@@ -28,11 +30,11 @@ public class Play {
 			lotto[i] = i+1;
 	
 		
-		for(int i=0; i<추출갯수; i++) {
-			int index = (int)(Math.random()*b+1);
-			 c = lotto[i];
+		for(int i=0; i<6; i++) {
+			int index = (int)(Math.random()*45+1);
+			 tmp = lotto[i];
 			lotto[i] = lotto[index];
-			lotto[index] = c;
+			lotto[index] = tmp;
 //		}
 //		
 //	
@@ -40,12 +42,13 @@ public class Play {
 //				if(i < l추출갯수.length-1)
 //					
 			System.out.print(lotto[i] + ", ");	
-			}
+			
+			}System.out.println(" \n");
 
 		
 		
 		System.out.println();
-		System.out.println("=====================");
+		System.out.println("---------------------");
 		
 	}
 }

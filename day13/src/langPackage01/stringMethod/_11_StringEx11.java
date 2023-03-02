@@ -1,4 +1,4 @@
-package langPackage03.stringMethod;
+package langPackage01.stringMethod;
 
 import java.util.Arrays;
 
@@ -7,7 +7,7 @@ public class _11_StringEx11 {
 	public static void main(String[] args) {
 		// 
 		
-		String text = "홍길동 - 아무개 - 이순신 - 강감찬";
+		String text = "홍길동-아무개-이순신-강감찬";
 		String[] name = text.split("-");
 		System.out.println(Arrays.toString(name));
 		
@@ -27,6 +27,13 @@ public class _11_StringEx11 {
 			str += (i==0) ? name [i] : ", " + name[i];
 		}
 		System.out.println(str);
+		
+		text = "홍길동,아무개&이순신-강감찬";
+		String[] names = text.split(",|&|-");
+		
+		System.out.println(Arrays.toString(name));
+		
+		
 
 	}
 
