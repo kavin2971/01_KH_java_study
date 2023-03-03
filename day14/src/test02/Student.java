@@ -21,7 +21,6 @@ public class Student {
 			this.tel = tel;
 			this.license = license;
 		}
-
 		
 		@Override
 		public String toString() {
