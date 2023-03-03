@@ -4,7 +4,7 @@ public class P_Method {
 
 	public static void main(String[] args) {
 		
-		void mix ();
+		
 			
 		
 		

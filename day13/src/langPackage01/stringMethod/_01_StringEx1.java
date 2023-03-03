@@ -15,3 +15,8 @@ public class _01_StringEx1 {
 	}
 
 }
+
+
+//Integer.parseInt
+
+//String.valueOf
