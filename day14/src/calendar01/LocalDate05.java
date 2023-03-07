@@ -9,7 +9,8 @@ public class LocalDate05 {
 		
 		LocalDate today = LocalDate.now();
 		LocalTime now = LocalTime.now();
-		LocalDate day = LocalDate.ofEpochDay(19419);
+		
+		LocalDate day = LocalDate.ofEpochDay(19423);
 		
 		System.out.println(day);
 		System.out.println(today);
