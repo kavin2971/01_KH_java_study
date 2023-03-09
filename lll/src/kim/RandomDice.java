@@ -23,8 +23,9 @@ public class RandomDice {
 				break;
 			}
 			sum1 += userBox1[i];
+//			sum1 = sum1 + userBox1[i];
 			sum2 += userBox2[i];
-			
+//			sum2 = sum2 + userBox2[i];			
 			System.out.println("홍길동의 주사위 값은 " + randomNumber1 + " 입니다"+ " 누적 : "+sum1+"점");
 			System.out.println("강감찬의 주사위 값은 " + randomNumber2 + " 입니다"+ " 누적 : "+sum2+"점");
 		}
