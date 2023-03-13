@@ -1,50 +1,45 @@
 package kim;
 
 import java.util.HashSet;
-import java.util.Scanner;
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Lotto2 {
 
 	public static void main(String[] args) {
-
-		Scanner scan = new Scanner(System.in);
-		System.out.print("구매 횟수 입력 : ");
-		int num = scan.nextInt();
-				for(int i=1; i<=num; i++) {
-					LottoBay();
-				}
-				
-		System.out.println("\n\"이번주 로또 결과\"");
 		
-		Set Weeklylotto = new HashSet();
-		for(int i=0; Weeklylotto.size()<6; i++) {
-			Weeklylotto.add((int)(Math.random()*45+1));
-		}
-
-		System.out.println(Weeklylotto);
-		 
+		Lotto2 lt = new Lotto2();
+		lt.로또추출();
+		
 	}
 	
-    static void LottoBay() {
-   
-		Set lotto = new TreeSet();
-			for(int i=0; lotto.size()<6; i++) {
-			lotto.add((int)(Math.random()*45+1));
-			}
-	
-			System.out.println(lotto);
-    }
-    
-    static void WeeklyNumber() {
-    	   
-		Set lotto = new HashSet();
-			for(int i=0; lotto.size()<6; i++) {
-			lotto.add((int)(Math.random()*45+1));
-			}
-	
-			System.out.println(lotto);
-    }
-	
+	private void 로또추출() {
+		new Thread(new SleepThread()).start();	
+	}
+		
+	class SleepThread implements Runnable {
+
+			@Override
+	public void run() {
+
+		System.out.println("\n\"로또 추첨 결과\"");
+		
+		Set Weeklylotto = new HashSet();
+		int []a = new int[6];
+		
+		for(int i=0; Weeklylotto.size()<6; i++) {
+			
+			Weeklylotto.add((int)(Math.random()*45+1));
+			
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			} 
+			
+			System.out.print(Weeklylotto);
+		}
+		
+	}
+		}
 }
+  

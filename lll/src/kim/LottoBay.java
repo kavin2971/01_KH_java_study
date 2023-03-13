@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 public class LottoBay {
 
-	void getLottoBay() {
+	public void getLottoBay() {
 		Set lotto1 = new TreeSet();
 		for(int i=0; lotto1.size()<6; i++) {
 			int random = (int)(Math.random()*45+1);
