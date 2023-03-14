@@ -7,16 +7,14 @@ public class Aaa {
 
 	public static void main(String[] args) {
 		
-		LocalDate today = LocalDate.now();
-		LocalTime now = LocalTime.now();
-		
-		
-		System.out.println(today);
-		System.out.println(now);
-//		SimpleDateFormat sdf = new SimpleDateFormat();
-//		System.out.println(sdf.format(today));
-		
-		
+				
+ public static void num1() {
+	 int num=1;
+	 for(int i=0; ; i++) {
+		 result = num%1
+		 
+	 
+ }
 	}
 
 }
