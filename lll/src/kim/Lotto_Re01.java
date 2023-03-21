@@ -39,7 +39,7 @@ public class Lotto_Re01 {
 	           
 		           
 	            try {
-	                Thread.sleep(2000);
+	                Thread.sleep(1000);
 	            } catch (InterruptedException e) {
 	                e.printStackTrace();
 	            }
@@ -52,8 +52,8 @@ public class Lotto_Re01 {
 
 	    public static int[] 로또구매() {
 	        Set<Integer> lottoBuy = new TreeSet<>();
-	        for (int i = 0; lottoBuy.size() < 6; i++) {
-	            int random = (int) (Math.random() * 45 + 1);
+	        for (int i=0; lottoBuy.size()<6;i++) {
+	            int random=(int)(Math.random()*45+1);
 	            lottoBuy.add(random);
 	        }
 	        System.out.println(lottoBuy);
