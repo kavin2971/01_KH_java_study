@@ -61,14 +61,7 @@ public class LottoMain {
 		}
 	}
 	}
-	public static void 로또구매() {
-		Set<Integer> LottoBuy = new TreeSet();
-		for (int i=0; LottoBuy.size()<6; i++) {
-			int random = (int)(Math.random()*45+1);
-			LottoBuy.add(random);
-		}
-		System.out.print(LottoBuy);
-		System.out.println("");
+
 	}
 	
 	
